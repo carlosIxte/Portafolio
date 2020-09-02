@@ -8,6 +8,7 @@ import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 import { FormComponent } from './pages/form/form.component';
+import { AppRoutingModule } from './app-routing.module';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { FormComponent } from './pages/form/form.component';
 
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
